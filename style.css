@@ -1,6 +1,15 @@
-h1{
-    color: blue;
+#box{
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    background-color: aquamarine;
 }
-body{
-    background-color: pink;
+.para{
+    color: blue;
+    background-color: yellowgreen;
+}
+.newPara{
+    color: aqua;
 }
