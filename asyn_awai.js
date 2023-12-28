@@ -26,7 +26,12 @@ function getdata(event) {
     })
 }
 
-async function allGet(){
+// async function allGet(){
+//     await getdata(1);
+//     await getdata(2);
+// }
+(async function (){
     await getdata(1);
     await getdata(2);
-}
+}) ();
+
